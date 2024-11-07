@@ -1,0 +1,11 @@
+name: tileserver
+
+services:
+  tileserver:
+    image: maptiler/tileserver-gl
+    ports:
+      - "8080:8080"
+    volumes:
+      - type: bind
+        source: ./src
+        target: /data
