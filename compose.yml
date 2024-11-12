@@ -1,8 +1,7 @@
-name: tileserver
-
 services:
-  tileserver:
+  app: 
     image: maptiler/tileserver-gl
+    container_name: tileserver
     ports:
       - "8080:8080"
     volumes:
