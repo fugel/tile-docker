@@ -1,3 +1,4 @@
+name: tileserver
 services:
   app: 
     image: maptiler/tileserver-gl
